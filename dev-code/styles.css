@@ -1,0 +1,63 @@
+/* Your styles should go here */
+@import url(http://fonts.googleapis.com/css?family=Arimo|Handlee|Shadows+Into+Light+Two);
+
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
+
+h1 > img {
+  height: 0.75em;
+}
+
+ul {
+  position: relative;
+  display: table;
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li  > div{
+  display: table-cell;
+  
+  vertical-align: middle;
+  padding: 5px;
+}
+
+#top-selfiers .selfie > img{
+  width: 100%;
+}
+
+#top-selfiers .selfie {
+  width: 120px;
+}
+
+#top-selfiers .stats {
+  width: 400px;
+}
+
+#top-selfiers h2{
+  margin-top: 0;
+}
+
+#top-selfiers .stats small{
+  color: firebrick;
+}
+
+#top-selfiers .stats strong{
+  background: #3838a5;
+  display: inline-block;
+  padding: 2px 4px; 
+  
+  font-size: 0.8em;
+  color : white; 
+}
+
+#top-selfiers .badge {
+  font-size: 2em;
+}
+
+#selfiers li > div {
+  min-width: 150px;
+}
+
